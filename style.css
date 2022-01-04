@@ -1,7 +1,7 @@
 body{font-family: 'Poppins', sans-serif;}
 h1{font-size: 50px;}
 .orange {color: orange;}
-section{display: flex;
+.flexible-container{display: flex;
 margin-top: 80px;}
 .half-width{width: 50%;
 padding-left: 5%;}
@@ -19,3 +19,19 @@ color: white;}
 }
 .dream-big{background-image: url(./images/dream-bg.png);
 background-repeat: no-repeat;background-position: right;margin: 0;}
+.experience-item{margin-left: 5%;
+margin-right: 5%;
+width: 40%; box-shadow: 10px 10px 40px rgb(122, 122, 122);
+padding: 20px;}
+h2{font-size: 40px;}
+.experience-area{background-image: url(./images/exp-bg.png);
+background-repeat: no-repeat; background-position: left;}
+#web-exp{border-left: 7px solid;
+        border-image: linear-gradient(blue, cyan);
+        border-image-slice: 1;
+    }
+    #stack-exp{border-left: 7px solid;
+        border-image: linear-gradient(salmon, tomato);
+        border-image-slice: 1;
+    }
+    footer p {text-align: center;}
