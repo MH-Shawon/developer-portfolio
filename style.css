@@ -1,7 +1,8 @@
 body{font-family: 'Poppins', sans-serif;}
 h1{font-size: 50px;}
 .orange {color: orange;}
-section{display: flex;}
+section{display: flex;
+margin-top: 80px;}
 .half-width{width: 50%;
 padding-left: 5%;}
 .half-width img{width: 80%;}
@@ -16,3 +17,5 @@ color: white;}
     background-repeat: no-repeat;
     margin: 0%;
 }
+.dream-big{background-image: url(./images/dream-bg.png);
+background-repeat: no-repeat;background-position: right;margin: 0;}
